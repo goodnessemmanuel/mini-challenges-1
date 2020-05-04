@@ -42,6 +42,4 @@ function isValid(str) {
 }
 
 module.exports = isValid;
-console.log(isValid("{}()"));//outputs valid
-console.log(isValid("}{()"));//returns invalid
-console.log(isValid("({}[])"));//returns valid
+
